@@ -1,140 +1,497 @@
-<!DOCTYPE.HTML>
+<DOCTYPE HTML>
 <html>
 <head>
 <title>Parasitic Infections</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="bootstrap"/>
   <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
   <style>
-    .header {
-background-color: #556264;
+ .banner {
+ background: url(https://ae01.alicdn.com/kf/HTB1tBJNLpXXXXaPXpXXq6xXFXXXV/alternative-art-digital-art-colorful-font-b-paint-b-font-font-b-splatter-b-font-font.jpg) no-repeat center center fixed;
+ background-size: cover;
+ height: 70px;
+ color: white;
+ text-align: left;
+ position: fixed;
+ width: 100%;
+ z-index: 999;
+  
+}
+ 
+.nav {
+  background: black;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  margin-top: 70px;
+  z-index: 998;
+     box-shadow:  5px 5px 30px #888888;
 
-  }
+}
+.nav ul {
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+  height: 10%;
+}
+.nav ul li {
+  display: inline-block;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s;
+  text-align: center;
+  font-family: sans-serif;
+  margin-right: 30px;
+ margin-top: 5px;
+ border-radius: 5px;
+}
 
-  .header ul li {
-    display: inline-block;
-    text-decoration: none;
-    font-color: white;
-    font-family: Raleway;
-  }
+.nav ul li:hover {
+  background: #FF9D00;
+  cursor: pointer; 
+  text-decoration: none;
+  font-color: black;
+}
 
-  .view .container .col-md-12 {
-    background-image: url(https://hd.unsplash.com/photo-1462774603919-1d8087e62cad);
+.nav a {
+    
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+}
+body {
+  background-color: #D4FFF1;
+}
+
+
+  .view .container .col-lg-12 {
+      background-color: black;
     background-size: 100%;
     margin-bottom: 30px;
     height: 110px;
-    width: col-md-12;
+    width: 100%;
     text-align: center;
-    border-top: 30px solid white;
+    background-position: top;
+        box-shadow:  5px 5px 30px #888888;
+        margin-top: 150px;
+
+   
   }
 
-  .view .container .col-md-12 h1 {
+  .view .container .col-lg-12 h1 {
     color: white;
     font-family: helvetica;
     text-decoration: bold;
-  }
-   .footer {
-    background-color: #556264;
-    height: 40px;
-    clear: both;
-    float: bottom;
-
-
+     padding-top: 30px;
   }
 
-  .footer ul li {
-    display: inline-block;
-    text-decoration: none;
-    font-family: Helvetica;
-    padding-right: 40px;
+  .sidebar {
+    margin: auto;
+    float: left;
+    width: 10%;
+    margin-right: 30px;
+    z-index: 0;
+    margin-left: 1%;
+    overflow: scroll;
+            box-shadow:  5px 5px 30px #888888;
+  
+
+}
+
+.book {
+  background-color: white;
+  border: 1px solid black;
+    margin-bottom: 10px;
+            box-shadow:  5px 5px 30px #888888;
+}
+  .sidebar h1{
+    font-size: 20px;
+    text-overflow: wrap;
   }
 
-  .footer p {
-    text-align: right;
+  .sidebar h2 {
+font-size: 15px;
   }
+
+  .sidebar h3 {
+    font-size: 12px;
+
+  }
+
+  .sidebar p{
+font-size: 10px;
+  }
+
+  img {
+    height: 100px;
+    margin-left: 30px;
+    border: 1px solid black;
+    max-width: 70px;
+  }
+  .sidebar2 {
+     margin-top: -110px;
+    float: right;
+    border: 1px solid black;
+    width: 10%;
+    margin-left: 30px;
+    position: fixed;
+    margin-right: 1%;
+  }
+
+
+  .a {
+  border: 1px solid black;
+  background: #97C0CC;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+   overflow: scroll;
+    box-shadow:  5px 5px 30px #888888;
+
+  }
+
+  .b {
+    border: 1px solid black;
+    background: #A6FFE7;
+    text-align: center;
+    margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  overflow: scroll;
+      box-shadow:  5px 5px 30px #888888;
+
+  }
+  h2 {
+    border-bottom: 5px solid 2C3E50;
+  }
+
+  .footer {
+  background-color: black;
+  height: 40px;
+  float: bottom;
+  clear: both;
+  width: 100%;
+     box-shadow:  5px 5px 30px #888888;
+
+}
+.footer ul {
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+  height: 10%;
+}
+.footer ul li {
+  display: inline-block;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s;
+  text-align: center;
+  font-family: sans-serif;
+  margin-right: 30px;
+ margin-top: 5px;
+ border-radius: 5px;
+}
+
+.footer ul li:hover {
+  background: white;
+  cursor: pointer; 
+  text-decoration: none;
+  font-color: black;
+}
+
+.footer a {
+    
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+}
+  	
+
   </style>
 </head>
 <body>
-	<span style="text-align: center;"><h1>Parasitic Infections</h1>
-		<h3>Neurocysticercosis</h3>
-			<p></p>
-			<h5>Symptoms</h5>
-				<p></p>
-			<h5>Prognosis and Duration</h5>
-				<p></p>
-			<h5>Cause</h5>
-				<p></p>
-			<h5>Demographics</h5>
-				<p></p>
-			<h5>Diagnosis</h5>
-				<p></p>
-			<h5>Treatment</h5>
-				<p></p>
-		<h3>Toxoplasmosis</h3>
-			<p></p>
-			<h5>Symptoms</h5>
-				<p></p>
-			<h5>Prognosis and Duration</h5>
-				<p></p>
-			<h5>Cause</h5>
-				<p></p>
-			<h5>Demographics</h5>
-				<p></p>
-			<h5>Diagnosis</h5>
-				<p></p>
-			<h5>Treatment</h5>
-				<p></p>
-		<h3>Trypanosomiasis</h3>
-			<p></p>
-			<h5>Symptoms</h5>
-				<p></p>
-			<h5>Prognosis and Duration</h5>
-				<p></p>
-			<h5>Cause</h5>
-				<p></p>
-			<h5>Demographics</h5>
-				<p></p>
-			<h5>Diagnosis</h5>
-				<p></p>
-			<h5>Treatment</h5>
-				<p></p>
-		<h3>Chagas Disease</h3>
-			<p></p>
-			<h5>Symptoms</h5>
-				<p></p>
-			<h5>Prognosis and Duration</h5>
-				<p></p>
-			<h5>Cause</h5>
-				<p></p>
-			<h5>Demographics</h5>
-				<p></p>
-			<h5>Diagnosis</h5>
-				<p></p>
-			<h5>Treatment</h5>
-				<p></p>
-		<h3>Botulism</h3>
-			<p></p>
-			<h5>Symptoms</h5>
-				<p></p>
-			<h5>Prognosis and Duration</h5>
-				<p></p>
-			<h5>Cause</h5>
-				<p></p>
-			<h5>Demographics</h5>
-				<p></p>
-			<h5>Diagnosis</h5>
-				<p></p>
-			<h5>Treatment</h5>
-				<p></p>
-			
+<div class="banner"><h1>CAT'S CRADLE (OF SCIENCE)</h1></div>
+<div class="nav">
+	<div class="container">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+     <li><a href="neurologyhome.html">Neurology</a></li>
+    <li><a href="index.html">Articles</a></li>
+    <li><a href="mars.html">Space Exploration</a></li>
+     <li><a href="aboutus.html">About Us</a></li>
+  </ul>
+  </div>
+  </div>
+	<div class="view">
+		<div class="container">
+  			<div class="col-lg-12">
+      <h1>PARASITIC INFECTIONS</h1>
+  			</div>
+		</div>
+	</div>
+	<div class="sidebar">
+<div class="book">
+<h1>
+Book Review:
+</h1>
+<img src="https://images-na.ssl-images-amazon.com/images/I/51I2HkwWTOL._SY445_QL70_.jpg">
+<h2>
+This Is Your Brain on Parasites
+</h2>
+<h3>By Kathleen McAuliffe</h3>
+<p>This book taught me that spicy foods are more common in hot countries because their antibacterial properties prevent the meats they season from rotting. It explored how toxoplasmosis makes women more social and men more brooding. It doesn't stick neatly to one theme, and instead jumps around to and from loosely related fun facts like those. A great, light read.</p>
+</div>
+<div class="book">
+<h1>
+Book Review:
+</h1>
+<img src="https://images-na.ssl-images-amazon.com/images/I/51QQtYAtwTL._SX319_BO1,204,203,200_.jpg">
+<h2>
+Infectious Madness: The Surprising Science of How We "Catch" Mental Illness
+</h2>
+<h3>By Harriet A. Washingon</h3>
+<p>Schizophrenia and cat litter! OCD and strep throat! A fascinating look at the connection between pathogens and psychology by my absolute favorite medical author-- including yet another great theory on autism. Read her frightening look at racism in heathcare from slavery to the Tuskeegee syphilis experiment <a href="https://www.cdc.gov/tuskegee/timeline.htm">here</a>.</p>
+</div>
+</div>
+<div class="main">
+	<span style="text-align: center;">
+
+   <div class="a">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+        <h3>Neurocysticercosis</h3>
+           <p>The most common worm infection of the central nervous system. The pork tapeworm, Taenia Solium, travels to the brain and causes cysts and increased pressure on the brain.</p>
+           </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-6">
+         <h3>Symptoms</h3>
+          <p>Seizures, headaches, weakness, possible: confusion, attention difficulty, poor balance, lethargy, numbness, vision changes, hydrocephalus, death.</p>
+          </div>
+          <div class="col-sm-6">
+      <h3>Cause</h3>
+        <p>T. solium eggs are passed into the environment through feces. Cattle and pigs become infected by grazing on vegetation contaminated by the eggs or proglottids (segments of the tapeworm). The eggs hatch, penetrate the intestinal wall and circulate into the muscle, where they develop into cysts. Humans ingest T. solium eggs through raw or undercooked pork or beef when the cow or pig host is slaughtered and consumed. In humans, the cysts may form in the central nervous system, causing neurocysticercosis.
+        </p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-2">
+      <h3>Prognosis and Duration</h3>
+        <p>Infection will persist until treatment is recieved.</p>
+        </div>
+        <div class="col-sm-4">
+      <h3>Demographics</h3>
+        <p>Neurocysticercosis is endemic to Latin America, Asia and subsaharan Africa. 50 million are affected worldwide-- it is the leading cause of adult onset seizures, especially in the developing world.</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Diagnosis</h3>
+        <p>A CT or MRI will show cysts. Stool samples may contain eggs.</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Treatment</h3>
+        <p>Antihelminthics include Albendazole (Albenza), or, less commonly, Praziquantel (Biltricide). Anticonvulsants include Carbamazepine (Tegretol) or Phenytoin (Dilantin). In extreme cases, surgical removal of brain cysts or placement of brain shunt may relieve pressure. </p>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+   <div class="B">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+        <h3>Toxoplasmosis</h3>
+           <p>Infection with the parasite Toxoplasma gondii causes neurological, respiratory or hepatic impairment, but is usually only noticeable when combined with a weakened immune system.</p>
+           </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-6">
+         <h3>Symptoms</h3>
+          <p>Sometimes symptoms are completely absent. Possible symptoms include body aches, swollen lymph nodes, headache, fever, fatigue,  confusion, poor coordination, seizures, lung problems, and blurred vision caused by retinal inflammation.</p>
+          </div>
+          <div class="col-sm-6">
+      <h3>Cause</h3>
+        <p>Toxoplasma gondii, a protozoan parasite, infection. T. gondii eggs are most commonly transmitted through the fecal matter of infected housecats or the meat of infected farm animals. Can also be transmitted from mother to fetus, or through a blood transplant.
+        </p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-2">
+      <h3>Prognosis and Duration</h3>
+        <p>Can be lifelong.</p>
+        </div>
+        <div class="col-sm-4">
+      <h3>Demographics</h3>
+        <p>Infection rates are highest in areas of the world with hot, humid climates and low altitudes. The CDC estimates 22.5% of americans age 12 and older are infected.</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Diagnosis</h3>
+        <p>Serologic testing to measure Immunoglobulin G will determine presence of infection. Immunoglobulin M test can determine time of infection.</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Treatment</h3>
+        <p>Most infected individuals are healthy and do not need treatment. People with symptoms may require Pyrimethamine (Daraprim), a folic acid antagonist typically used to treat malaria, or Sulfadizine, an antibiotic used with Pyrimethamine. Pregnant or HIV+ individuals need additional treatment and monitoring.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+   <div class="a">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+        <h3>Trypanosomiasis</h3>
+           <p>A serious African disease caused by a parasitic protozoa, transmitted through biting insects, that can progress to attack the central nervous system over time. </p>
+           </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-6">
+         <h3>Symptoms</h3>
+          <p>East African strain: chancre, fever, severe headaches, irritability, extreme fatigue, swollen lymph nodes, aching muscles and joints, possible: skin rash. When the infection has invaded the central nervous system, symptoms will progress to confusion, slurred speech, personality changes, seizures, difficulty walking, difficulty speaking, and death within several weeks or months if untreated.</p>
+          <p>West African: Possible chancre sore within 1-2 weeks. Several weeks-months after the bite, symptoms develop. Fever, rash, swelling around the eye and hands, severe headaches, extreme fatigue, aching muscles, aching joints, progressive weight loss, possible: swollen lymph nodes on the back of the neck (Winterbottom’s sign). When infection has invaded CNS: progressive confusion, personality changes, slurred speech, irritability, loss of concentration, seizures, difficulty walking, difficulty talking. If left untreated, death within several months-years. Possible: sleeping long periods during the day, insomnia at night. </p>
+          </div>
+          <div class="col-sm-6">
+      <h3>Cause</h3>
+        <p>The parasite Trypanosoma brucei rhodesiense  (east african) or gambiense (west african). Usually transmitted to humans through the tsetse fly, but is occasionally transmitted from a pregnant woman to her child, or through a blood transfusion or organ transplant.
+        </p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-2">
+      <h3>Prognosis and Duration</h3>
+        <p>Several weeks or months in East Africa, several months or years in West Africa. Death will follow if not treated.</p>
+        </div>
+        <div class="col-sm-4">
+      <h3>Demographics</h3>
+        <p>Fewer than 1,000 US cases per year.
+Endemic to africa, especially central africa.
+</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Diagnosis</h3>
+        <p>Blood test for rhodesiense,
+Lymph node aspiration for gambiense,
+LP to determine disease stage.
+</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Treatment</h3>
+        <p>Dependent on the cause. T. B. Gambiense is treated with Pentamidine, Eflornithine, Suramin or Melarsoprol. T. B. Rhodesiense is treated with Melarsoprol or Suramin.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+   <div class="B">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+        <h3>Chagas Disease</h3>
+           <p>A serious South American disease caused by parasitic protozoa transmitted by biting insects that damages the heart and central nervous. system.</p>
+           </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-6">
+         <h3>Symptoms</h3>
+          <p>Mild swelling at infection site, fever, fatigue, rash, body aches, eyelid swelling, headache, loss of appetite, nausea, diarrhea, vomiting, swollen glands, enlargement of liver or spleen.</p>
+          <p>Acute Phase: first few weeks or months of infection. Usually symptom-free or very mild. Symptoms can include: fever, fatigue, body aches, headache, rash, loss of appetite, diarrhea, vomiting, mild splenomegaly or hepatomegaly, local swelling at the infection site, Romana’s sign (swelling of the eyelids on the side of the face near the bite or where bug feces were deposited). 
+This phase can cause fatal meningoencephalitis or myocarditis in young children (<5%) or people with weakened immune systems.
+</p>
+          <p>Chronic Phase: possible cardiac complications (cardiomyopathy, heart failure, altered heart rate or rhythm, cardiac arrest), or intestinal complications (megaesophagus, megacolon). About 30% of patients develop one or more of these complications.</p>
+          </div>
+          <div class="col-sm-6">
+      <h3>Cause</h3>
+        <p>Infection by the parasite Trypanosoma cruzi, usually through triatomine bugs, found in mud, adobe and thatch roof houses. Occasionally, the parasite is transmitted congenitally, or through a blood or organ transplantation, consumption of uncooked food, or accidental laboratory exposure. 
+        </p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-2">
+      <h3>Prognosis and Duration</h3>
+        <p>Infection will persist until it is treated.</p>
+        </div>
+        <div class="col-sm-4">
+      <h3>Demographics</h3>
+        <p>8 million people in Mexico, Central America and South America, most of whom do not know they are infected. Mostly rural, poor areas.</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Diagnosis</h3>
+        <p>Blood smear.</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Treatment</h3>
+        <p>Antiparasitic treatment includes Benznidazole and nifurtimox during the acute phase. Symptomatic treatment includes pacemakers or medications for heart problems, etc.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+   <div class="a">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+        <h3>Botulism</h3>
+           <p>Infection with the bacteria Clostridium Botulinum causes nerve weakness, paralysis and possibly death.</p>
+           </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-6">
+         <h3>Symptoms</h3>
+          <p>Abdominal pain, constipation, nausea, vomiting, dizziness, fatigue, drooling, dry mouth, blurred vision, double vision, dilated pupils, weak eye muscles, drooping of upper eyelid, facial weakness, possible: difficulty speaking, difficulty swallowing, paralysis with weak muscles, shortness of breath, slow reflexes, urinary retention.
+In foodborne cases, symptoms begin 18-36 hours after eating contaminated food but can begin as early as 6 hours or as late as 10 days. 
+</p>
+          </div>
+          <div class="col-sm-6">
+      <h3>Cause</h3>
+        <p>The bacterium Clostridium botulinum (or sometimes, Clostridium butyricum or Clostridium baratii) produces a neurotoxin. 
+        </p>
+        <p>Foodborne botulism: eating food containing toxin.</p>
+        <p>Wound botulism: toxin produced from a wound infected with the bacteria.</p>
+        <p>Infant botulism: consuming the spores of the botulinum bacteria, which then grow in the intestines and release toxin.</p>
+        <p>Adult intestinal toxemia: very rare. An adult consumes the spores of the botulinum bacteria, which then grow in the intestines and release toxin. </p>
+        <p>Iatrogenic botulism: accidental overdose of toxin.</p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-2">
+      <h3>Prognosis and Duration</h3>
+        <p></p>
+        </div>
+        <div class="col-sm-4">
+      <h3>Demographics</h3>
+        <p>Average of 145 cases reported each year in the United States. 15% are foodborne, 65% are infant botulism and 20% of cases are wound botulism, most of which are from black tar heroin.</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Diagnosis</h3>
+        <p>Patient history, physical examination
+DDX: guillain-Barre syndrome, stroke, myasthenia gravis.
+To exclude these conditions: MRI, CT, spinal fluid examination, nerve conduction study, tensilon test.
+Tests for botulinum toxin can be done at CDC or state labs. 
+</p>
+        </div>
+        <div class="col-sm-3">
+      <h3>Treatment</h3>
+        <p>Injected botulinum antitoxin for foodborne or wound botulism at early stages, antibiotics for wound botulism, breathing assistance or rehabilitation for severe symptoms.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
 		</span>
 <div class="footer">
   
-  <ul class="nav">
-    <li><a href="https://www.instagram.com/catorman/"><span style="font-family: sans-serif; font-color: white;">Instagram</span></a></li>
+  <ul>
+    <li><a href="https://www.instagram.com/catorman/">Instagram</a></li>
     <li><a href="https://www.linkedin.com">LinkedIn</div></li>
   </ul>
-  
-  
 </div>
 </body>
 
